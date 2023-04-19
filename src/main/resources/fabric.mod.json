@@ -1,0 +1,33 @@
+{
+    "schemaVersion": 1,
+    "id": "portallinkingcompass",
+    "version": "${version}",
+
+    "name": "Portal Linking Compass",
+    "description": "Adds a compass that shows the exact coordinates of where a corresponding portal can be built in the either (Nether/Overworld) dimension.",
+    "authors": ["Maxoduke"],
+    "contact": {
+        "homepage": "https://maxoduke.me/",
+        "sources": "https://github.com/maxoduke/portallinkingcompass"
+    },
+
+    "license": "MIT",
+    "icon": "assets/portallinkingcompass/icon.png",
+
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "me.maxoduke.mod.portallinkingcompass.PortalLinkingCompassMod"
+        ],
+        "client": [
+            "me.maxoduke.mod.portallinkingcompass.PortalLinkingCompassClientMod"
+        ]
+    },
+    
+    "depends": {
+        "fabricloader": ">=0.14.17",
+        "fabric-api": "*",
+        "minecraft": "~1.19.4",
+        "java": ">=17"
+    }
+}
