@@ -17,7 +17,7 @@ The mod must be installed on both client and server to be able to function prope
 
 The mod was originally created because I wanted to try and play the game without coordinates (reducedDebugInfo  gamerule set to true).
 
-Almost everything in-game can be done without coordinates. Maps, compasses and lodestone compasses (albeit a little expensive) are a great tool for locating previously visited places.
+Almost everything in-game can be done without coordinates. Maps, compasses and lodestone compasses (albeit a little expensive) are great tools for locating places.
 
 However, a few things aren't possible without coordinates. Such as:
 - Linking Nether portals
