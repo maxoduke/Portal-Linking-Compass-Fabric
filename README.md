@@ -5,7 +5,7 @@
 ## Description:
 
 Portal Linking Compass is a Fabric mod that allows finding the exact coordinates
-of where to build a Nether portal in the other dimension to link them up perfectly.
+of where to build a Nether portal in either dimension to link them up perfectly.
 
 The mod must be installed on both client and server to be able to function properly.  
 

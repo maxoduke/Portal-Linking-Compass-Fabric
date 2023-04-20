@@ -4,11 +4,11 @@
     "version": "${version}",
 
     "name": "Portal Linking Compass",
-    "description": "Adds a compass that shows the exact coordinates of where a corresponding portal can be built in the either (Nether/Overworld) dimension.",
+    "description": "Adds a compass that shows the exact coordinates of where a corresponding portal can be built in either (Nether/Overworld) dimension.",
     "authors": ["Maxoduke"],
     "contact": {
         "homepage": "https://maxoduke.me/",
-        "sources": "https://github.com/maxoduke/portallinkingcompass"
+        "sources": "https://github.com/maxoduke/Portal-Linking-Compass"
     },
 
     "license": "MIT",
