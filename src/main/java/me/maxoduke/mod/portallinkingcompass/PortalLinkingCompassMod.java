@@ -1,5 +1,6 @@
 package me.maxoduke.mod.portallinkingcompass;
 
+import me.maxoduke.mod.portallinkingcompass.module.PortalLinkingCompass;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,6 +13,8 @@ public class PortalLinkingCompassMod implements ModInitializer
     @Override
     public void onInitialize()
     {
-        LOGGER.info("MaxoCompass initialized!");
+        PortalLinkingCompass.init();
+
+        LOGGER.info("Portal Linking Compass initialized!");
     }
 }
