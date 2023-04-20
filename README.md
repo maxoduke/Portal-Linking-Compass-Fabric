@@ -7,20 +7,17 @@
 Portal Linking Compass is a Fabric mod that allows finding the exact coordinates
 of where to build a Nether portal in either dimension to link them up perfectly.
 
-The mod must be installed on both client and server to be able to function properly.  
+The mod must be installed on both client and server to be able to function properly.
 
-<div style="width: 200px;">
-   <br />
-    <a href="https://modrinth.com/mod/fabric-api">
-        <img src="https://i.imgur.com/Ol1Tcf8.png" alt="Requires Fabric API" />
-    </a>
-</div>
+<a href="https://modrinth.com/mod/fabric-api">
+  <img width="200px" src="https://i.imgur.com/Ol1Tcf8.png" alt="Requires Fabric API" />
+</a>
 
 ## Why this mod was created:
 
-The mod was originally created because I wanted to try and play the game without coordinates (reducedDebugInfo  gamerule set to true).  
+The mod was originally created because I wanted to try and play the game without coordinates (reducedDebugInfo  gamerule set to true).
 
-Almost everything in-game can be done without coordinates. Maps, compasses and lodestone compasses (albeit a little expensive) are a great tool for locating previously visited places.  
+Almost everything in-game can be done without coordinates. Maps, compasses and lodestone compasses (albeit a little expensive) are great tools for locating places.
 
 However, a few things aren't possible without coordinates. Such as:
 - Linking Nether portals
@@ -33,7 +30,7 @@ I thought I may as well publish the mod for other people like me.
 
 ## How to install:
 1. Download JAR from:
-   - [Modrinth](https://modrinth/mod/portal-linking-compass) page
+   - [Modrinth](https://modrinth.com/mod/portal-linking-compass) page
    - [GitHub releases](https://github.com/maxoduke/Portal-Linking-Compass/releases) page
 
 2. Put the JAR in your mods folder.
@@ -50,17 +47,30 @@ It requires:
 - 1 Diamond
 - 1 Netherite Ingot
 - 1 Compass
-<div style="margin-left: 30px; width: 300px;">
-    <img src="https://maxoduke.me/assets/images/mods/portal-linking-compass/step1.jpg" alt="Craftin Recipe" />
-</div>
+<dl>
+   <dd>
+      <dl>
+         <dd>
+            <img width="300px" src="https://maxoduke.me/assets/images/mods/portal-linking-compass/step1.jpg" alt="Craftin Recipe" />
+         </dd>
+      </dl>
+   </dd>
+</dl>
+
 
 ### Step 2:
 - Right-click a Nether portal block with the compass.
-<div style="margin-left: 30px; width: 300px;">
-    <img src="https://maxoduke.me/assets/images/mods/portal-linking-compass/step2.jpg" alt="Right-click Portal with compass" />
-</div>
+<dl>
+   <dd>
+      <dl>
+         <dd>
+            <img width="300px" src="https://maxoduke.me/assets/images/mods/portal-linking-compass/step2.jpg" alt="Right-click Portal with compass" />
+         </dd>
+      </dl>
+   </dd>
+</dl>
 
-- The compass should now point to Nether portal block.  
+- The compass should now point to Nether portal block.
 - Go to the Nether, the compass should point to the exact coordinates where you can build the portal to link them up perfectly.
 - This also works viceversa. That is, original portal in the Nether ➔ Find coordinates in the Overworld.
 - If the Portal that was right-click is destroyed, the Compass will start spinning randomly. 
