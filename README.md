@@ -30,7 +30,7 @@ I thought I may as well publish the mod for other people like me.
 
 ## How to install:
 1. Download JAR from:
-   - [Modrinth](https://modrinth/mod/portal-linking-compass) page
+   - [Modrinth](https://modrinth.com/mod/portal-linking-compass) page
    - [GitHub releases](https://github.com/maxoduke/Portal-Linking-Compass/releases) page
 
 2. Put the JAR in your mods folder.
