@@ -21,7 +21,7 @@ Almost everything in-game can be done without coordinates. Maps, compasses and l
 
 However, a few things aren't possible without coordinates. Such as:
 - Linking Nether portals
-- Finding the coordinates to manipulate and generate an End Gateweay in the middle of the void.
+- Finding the coordinates to manipulate and generate an End Gateway in the middle of the void.
 - A bunch more things I haven't thought of.
 
 This mod tackles at least the first problem and allows players to build proper Nether hubs.
