@@ -55,8 +55,11 @@ It requires:
          </dd>
       </dl>
    </dd>
-</dl>
+</dl>  
 
+Why an expensive recipe? The compass can be used as an alternative for the Lodestone Compass from vanilla, which I never intended. Lodestone Compass requires a Netherite ingot to be crafted, so does this one.  
+  
+The recipe may change in the future, due to the mod still being an alpha release.  
 
 ### Step 2:
 - Right-click a Nether portal block with the compass.
