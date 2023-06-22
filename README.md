@@ -21,7 +21,7 @@ Almost everything in-game can be done without coordinates. Maps, compasses and l
 
 However, a few things aren't possible without coordinates. Such as:
 - Linking Nether portals
-- Finding the coordinates to manipulate and generate an End Gateweay in the middle of the void.
+- Finding the coordinates to manipulate and generate an End Gateway in the middle of the void.
 - A bunch more things I haven't thought of.
 
 This mod tackles at least the first problem and allows players to build proper Nether hubs.
@@ -29,12 +29,12 @@ I thought I may as well publish the mod for other people like me.
 
 
 ## How to install:
-1. Download JAR from:
-   - [Modrinth](https://modrinth.com/mod/portal-linking-compass) page
-   - [GitHub releases](https://github.com/maxoduke/Portal-Linking-Compass/releases) page
-
-2. Put the JAR in your mods folder.
-3. Make sure you have Fabric API installed.
+- Make sure you have Fabric API installed.
+- Download JAR from either 
+[Modrinth](https://modrinth.com/mod/portal-linking-compass)
+or
+[CurseForge](https://www.curseforge.com/minecraft/mc-mods/portal-linking-compass)
+and put in your mods folder.
 
 
 ## How to use:
@@ -55,8 +55,11 @@ It requires:
          </dd>
       </dl>
    </dd>
-</dl>
+</dl>  
 
+Why an expensive recipe? The compass can be used as an alternative for the Lodestone Compass from vanilla, which I never intended. Lodestone Compass requires a Netherite ingot to be crafted, so does this one.  
+  
+The recipe may change in the future, due to the mod still being an alpha release.  
 
 ### Step 2:
 - Right-click a Nether portal block with the compass.
