@@ -5,9 +5,6 @@
     "O": {
       "item": "minecraft:obsidian"
     },
-    "D": {
-      "item": "minecraft:diamond"
-    },
     "C": {
       "item": "minecraft:compass"
     },
@@ -16,9 +13,9 @@
     }
   },
   "pattern": [
-    "ODO",
+    " O ",
     "OCO",
-    "ONO"
+    " N "
   ],
   "result": {
     "item": "portallinkingcompass:portal_linking_compass",
