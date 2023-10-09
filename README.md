@@ -43,15 +43,14 @@ and put in your mods folder.
 Craft a Portal Linking Compass using a Crafting Table.  
 The recipe is unlocked after picking up a compass, and will become visible in the recipe book.  
 It requires:
-- 6 Obsidian
-- 1 Diamond
-- 1 Netherite Ingot
+- 3 Obsidian
 - 1 Compass
+- 1 Netherite Ingot
 <dl>
    <dd>
       <dl>
          <dd>
-            <img width="300px" src="https://maxoduke.me/assets/images/mods/portal-linking-compass/step1.jpg" alt="Craftin Recipe" />
+            <img width="300px" src="https://maxoduke.dev/assets/images/mods/portal-linking-compass/step1.png" alt="Craftin Recipe" />
          </dd>
       </dl>
    </dd>
@@ -59,7 +58,7 @@ It requires:
 
 Why an expensive recipe? The compass can be used as an alternative for the Lodestone Compass from vanilla, which I never intended. Lodestone Compass requires a Netherite ingot to be crafted, so does this one.  
   
-The recipe may change in the future, due to the mod still being an alpha release.  
+The recipe may change in the future, due to the mod still being a beta release.  
 
 ### Step 2:
 - Right-click a Nether portal block with the compass.
@@ -67,7 +66,7 @@ The recipe may change in the future, due to the mod still being an alpha release
    <dd>
       <dl>
          <dd>
-            <img width="300px" src="https://maxoduke.me/assets/images/mods/portal-linking-compass/step2.jpg" alt="Right-click Portal with compass" />
+            <img width="300px" src="https://maxoduke.dev/assets/images/mods/portal-linking-compass/step2.jpg" alt="Right-click Portal with compass" />
          </dd>
       </dl>
    </dd>
