@@ -2,6 +2,7 @@
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_compass": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
@@ -10,8 +11,7 @@
             ]
           }
         ]
-      },
-      "trigger": "minecraft:inventory_changed"
+      }
     }
   },
   "requirements": [
