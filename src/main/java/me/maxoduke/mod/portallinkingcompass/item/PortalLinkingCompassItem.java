@@ -66,17 +66,18 @@ public class PortalLinkingCompassItem extends Item implements Vanishable
         double overworldCoordinateScale = 1.0;
         double netherCoordinateScale = 8.0;
         double coordinateScale = (level.dimension() == Level.NETHER)
-                ? netherCoordinateScale / overworldCoordinateScale
-                : overworldCoordinateScale / netherCoordinateScale;
+            ? netherCoordinateScale / overworldCoordinateScale
+            : overworldCoordinateScale / netherCoordinateScale;
 
         var originalDimension = level.dimension();
         var targetDimension = originalDimension == Level.OVERWORLD ? Level.NETHER : Level.OVERWORLD;
 
         WorldBorder worldBorder = level.getWorldBorder();
+
         BlockPos targetPos = worldBorder.clampToBounds(
-                usedOnBlockPos.getX() * coordinateScale,
-                usedOnBlockPos.getY(),
-                usedOnBlockPos.getZ() * coordinateScale
+            usedOnBlockPos.getX() * coordinateScale,
+            0 /* usedOnBlockPos.getY() */,
+            usedOnBlockPos.getZ() * coordinateScale
         );
 
         if (heldItem.getCount() == 1)
@@ -126,10 +127,10 @@ public class PortalLinkingCompassItem extends Item implements Vanishable
         CompoundTag tag = item.getTag();
 
         return tag == null ||
-                !tag.contains(TAG_ORIGINAL_DIMENSION) ||
-                !tag.contains(TAG_TARGET_DIMENSION) ||
-                !tag.contains(TAG_ORIGINAL_POS) ||
-                !tag.contains(TAG_TARGET_POS);
+            !tag.contains(TAG_ORIGINAL_DIMENSION) ||
+            !tag.contains(TAG_TARGET_DIMENSION) ||
+            !tag.contains(TAG_ORIGINAL_POS) ||
+            !tag.contains(TAG_TARGET_POS);
     }
 
     public static Optional<ResourceKey<Level>> getOriginalPortalDimension(CompoundTag tag)
@@ -165,12 +166,12 @@ public class PortalLinkingCompassItem extends Item implements Vanishable
     public static void addTags(ResourceKey<Level> originalDim, ResourceKey<Level> targetDim, BlockPos originalPos, BlockPos targetPos, CompoundTag compoundTag)
     {
         Level.RESOURCE_KEY_CODEC.encodeStart(NbtOps.INSTANCE, originalDim)
-                .resultOrPartial(PortalLinkingCompassMod.LOGGER::error)
-                .ifPresent(tag -> compoundTag.put(TAG_ORIGINAL_DIMENSION, tag));
+            .resultOrPartial(PortalLinkingCompassMod.LOGGER::error)
+            .ifPresent(tag -> compoundTag.put(TAG_ORIGINAL_DIMENSION, tag));
 
         Level.RESOURCE_KEY_CODEC.encodeStart(NbtOps.INSTANCE, targetDim)
-                .resultOrPartial(PortalLinkingCompassMod.LOGGER::error)
-                .ifPresent(tag -> compoundTag.put(TAG_TARGET_DIMENSION, tag));
+            .resultOrPartial(PortalLinkingCompassMod.LOGGER::error)
+            .ifPresent(tag -> compoundTag.put(TAG_TARGET_DIMENSION, tag));
 
         compoundTag.put(TAG_ORIGINAL_POS, NbtUtils.writeBlockPos(originalPos));
         compoundTag.put(TAG_TARGET_POS, NbtUtils.writeBlockPos(targetPos));
