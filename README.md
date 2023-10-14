@@ -8,13 +8,10 @@ Portal Linking Compass is a mod that allows finding the exact coordinates
 of where to build a Nether portal in either dimension to link them up perfectly.
 
 The mod must be installed on both client and server to be able to function properly.  
-Available for both Fabric and Forge:
-- Fabric: [Modrinth](https://modrinth.com/mod/portal-linking-compass-fabric) or [CurseForge](https://www.curseforge.com/minecraft/mc-mods/portal-linking-compass-fabric)
-- Forge: [Modrinth](https://modrinth.com/mod/portal-linking-compass-forge) or [CurseForge](https://www.curseforge.com/minecraft/mc-mods/portal-linking-compass-forge)
+Available on Fabric, Quilt and Forge:
+- [Modrinth](https://modrinth.com/mod/portal-linking-compass)
+- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/portal-linking-compass)
 
-<a href="https://modrinth.com/mod/fabric-api">
-  <img width="200px" src="https://i.imgur.com/Ol1Tcf8.png" alt="Requires Fabric API" />
-</a>
 
 ## Why this mod was created:
 
@@ -32,7 +29,8 @@ I thought I may as well publish the mod for other people like me.
 
 
 ## How to install:
-- Make sure you have Fabric API installed.
+- If you're on Fabric, make sure you have [Fabric API](https://modrinth.com/mod/fabric-api) installed.
+- If you're on Quilt, make sure you have [QFAPI](https://modrinth.com/mod/qsl) installed.
 - Download JAR and put in your mods folder.
 
 
@@ -55,8 +53,8 @@ It requires:
    </dd>
 </dl>  
 
-Why an expensive recipe? The compass can be used as an alternative for the Lodestone Compass from vanilla, which I never intended. Lodestone Compass requires a Netherite ingot to be crafted, so does this one.  
-  
+Why an expensive recipe? The compass can be used as an alternative for the Lodestone Compass from vanilla, which I never intended. Lodestone Compass requires a Netherite ingot to be crafted, so does this one.
+
 ### Step 2:
 - Right-click a Nether portal block with the compass.
 <dl>
