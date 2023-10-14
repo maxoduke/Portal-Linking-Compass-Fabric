@@ -1,8 +1,6 @@
-package me.maxoduke.mod.portallinkingcompass.item;
+package dev.maxoduke.mods.portallinkingcompass.item;
 
-import me.maxoduke.mod.portallinkingcompass.PortalLinkingCompassMod;
-import me.maxoduke.mod.portallinkingcompass.module.PortalLinkingCompass;
-
+import dev.maxoduke.mods.portallinkingcompass.PortalLinkingCompass;
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.GlobalPos;
@@ -29,7 +27,7 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.Optional;
 
-@SuppressWarnings("DataFlowIssue")
+@SuppressWarnings({ "DataFlowIssue", "SpellCheckingInspection" })
 public class PortalLinkingCompassItem extends Item implements Vanishable
 {
     private static final String TAG_ORIGINAL_DIMENSION = "OriginalDimension";
@@ -166,11 +164,11 @@ public class PortalLinkingCompassItem extends Item implements Vanishable
     public static void addTags(ResourceKey<Level> originalDim, ResourceKey<Level> targetDim, BlockPos originalPos, BlockPos targetPos, CompoundTag compoundTag)
     {
         Level.RESOURCE_KEY_CODEC.encodeStart(NbtOps.INSTANCE, originalDim)
-            .resultOrPartial(PortalLinkingCompassMod.LOGGER::error)
+            .resultOrPartial(PortalLinkingCompass.LOGGER::error)
             .ifPresent(tag -> compoundTag.put(TAG_ORIGINAL_DIMENSION, tag));
 
         Level.RESOURCE_KEY_CODEC.encodeStart(NbtOps.INSTANCE, targetDim)
-            .resultOrPartial(PortalLinkingCompassMod.LOGGER::error)
+            .resultOrPartial(PortalLinkingCompass.LOGGER::error)
             .ifPresent(tag -> compoundTag.put(TAG_TARGET_DIMENSION, tag));
 
         compoundTag.put(TAG_ORIGINAL_POS, NbtUtils.writeBlockPos(originalPos));
