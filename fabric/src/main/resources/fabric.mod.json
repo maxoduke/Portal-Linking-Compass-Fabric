@@ -1,0 +1,33 @@
+{
+    "schemaVersion": 1,
+    "id": "portallinkingcompass",
+    "version": "${version}",
+    "name": "${mod_name}",
+    "description": "${description}",
+    "authors": [
+        "${mod_author}"
+    ],
+    "contact": {
+        "homepage": "${repo}",
+        "sources": "${repo}",
+        "issues": "${repo}/issues"
+    },
+    "license": "${license}",
+    "icon": "icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "dev.maxoduke.mods.portallinkingcompass.FabricInitializer"
+        ],
+        "client": [
+            "dev.maxoduke.mods.portallinkingcompass.FabricInitializer"
+        ]
+    },
+    "depends": {
+        "fabricloader": "${fabric_loader_version_range}",
+        "fabric": "*",
+        "minecraft": "${fabric_minecraft_version_range}",
+        "java": ">=17"
+    }
+}
+  
