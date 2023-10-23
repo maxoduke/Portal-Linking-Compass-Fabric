@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "C": {
+      "item": "minecraft:compass"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    " O ",
+    "OCO",
+    " N "
+  ],
+  "result": {
+    "item": "portallinkingcompass:portal_linking_compass",
+    "count": 1
+  },
+  "show_notification": true
+}
+
