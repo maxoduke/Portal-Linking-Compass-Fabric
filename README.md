@@ -16,14 +16,14 @@ Available on Fabric, Quilt and Forge:
 
 The mod was originally created because I wanted to try and play the game without coordinates (reducedDebugInfo  gamerule set to true).
 
-Almost everything in-game can be done without coordinates. Maps, compasses and lodestone compasses (albeit a little expensive) are great tools for locating places.
+Almost everything in-game can be done without coordinates. Maps, compasses and lodestones (albeit a little expensive) are great tools for locating places.
 
 However, a few things aren't possible without coordinates. Such as:
-- Linking Nether portals
-- Finding the coordinates to manipulate and generate an End Gateway in the middle of the void.
+- Linking nether portals
+- Finding the coordinates to manipulate and generate an end gateway in the middle of the void.
 - A bunch more things I haven't thought of.
 
-This mod tackles at least the first problem and allows players to build proper Nether hubs.
+This mod tackles at least the first problem and allows players to build proper nether hubs.
 I thought I may as well publish the mod for other people like me.
 
 
@@ -36,12 +36,12 @@ I thought I may as well publish the mod for other people like me.
 ## How to use:
 
 ### Step 1:
-Craft a Portal Linking Compass using a Crafting Table.  
+Craft a Portal Linking Compass using a crafting table.  
 The recipe is unlocked after picking up a compass, and will become visible in the recipe book.  
 It requires:
-- 3 Obsidian
-- 1 Compass
-- 1 Netherite Ingot
+- 3 obsidian
+- 1 compass
+- 1 netherite Ingot
 <dl>
    <dd>
       <dl>
@@ -52,10 +52,10 @@ It requires:
    </dd>
 </dl>  
 
-Why an expensive recipe? The compass can be used as an alternative for the Lodestone Compass from vanilla, which I never intended. Lodestone Compass requires a Netherite ingot to be crafted, so does this one.
+Why an expensive recipe? This compass can be used as an alternative for vanilla lodestone, which I never intended. A lodestone requires a Netherite ingot to be crafted, so does this one.
 
 ### Step 2:
-- Right-click a Nether portal block with the compass.
+- Right-click a nether portal block with the compass.
 <dl>
    <dd>
       <dl>
@@ -66,7 +66,7 @@ Why an expensive recipe? The compass can be used as an alternative for the Lodes
    </dd>
 </dl>
 
-- The compass should now point to Nether portal block.
-- Go to the Nether, the compass should point to the exact coordinates where you can build the portal to link them up perfectly.
-- This also works viceversa. That is, original portal in the Nether ➔ Find coordinates in the Overworld.
-- If the Portal that was right-click is destroyed, the Compass will start spinning randomly. 
+- The compass should now point to nether portal block.
+- Go to the nether, the compass should point to the exact coordinates where you can build the portal to link them up perfectly.
+- This also works vice-versa. That is, original portal in the nether ➔ find coordinates in the overworld.
+- If the portal that was right-click is destroyed, the compass will start spinning randomly. 
