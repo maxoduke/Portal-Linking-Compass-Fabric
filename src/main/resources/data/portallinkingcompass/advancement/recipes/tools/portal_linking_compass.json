@@ -5,17 +5,22 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:compass"
-            ]
+            "items": "minecraft:compass"
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "portallinkingcompass:portal_linking_compass"
+      },
+      "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
+      "has_the_recipe",
       "has_compass"
     ]
   ],

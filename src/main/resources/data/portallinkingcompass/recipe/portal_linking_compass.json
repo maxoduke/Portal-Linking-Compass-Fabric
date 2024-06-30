@@ -18,7 +18,7 @@
     " N "
   ],
   "result": {
-    "item": "portallinkingcompass:portal_linking_compass",
+    "id": "portallinkingcompass:portal_linking_compass",
     "count": 1
   },
   "show_notification": true
